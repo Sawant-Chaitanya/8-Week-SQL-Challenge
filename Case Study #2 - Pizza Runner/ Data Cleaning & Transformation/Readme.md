@@ -54,7 +54,7 @@ WHERE exclusions IS NOT NULL AND exclusions NOT LIKE 'null' AND extras IS NOT NU
 
 ```sql
 -- Clean the Data: Update "runner_orders" table directly
-UPDATE pizza_runner.runner_orders
+UPDATE pizza_runner.runner_orders 
 SET pickup_time =
   CASE
     WHEN pickup_time LIKE 'null' THEN ''  -- Replace "null" with empty string
@@ -67,10 +67,11 @@ SET pickup_time =
     ELSE distance
   END,
   duration =
-  CASE
-    WHEN duration LIKE 'null' THEN ''  -- Replace "null" with empty string
-    WHEN duration LIKE '%mins' OR duration LIKE '%minute' OR duration LIKE '%minutes' THEN
-      TRIM(REGEXP_REPLACE(duration, '(s|es)$', ''))  -- Remove "s", "es", or trailing "s" from "mins", "minute", or "minutes"
+ CASE 
+ 	WHEN duration LIKE 'null' THEN ' '
+    WHEN duration LIKE '%mins' THEN REPLACE(duration, 'mins', '') 
+    WHEN duration LIKE '%minute' THEN REPLACE(duration, 'minute', '') 
+    WHEN duration LIKE '%minutes%' THEN REPLACE(duration, 'minutes', '') 
     ELSE duration
   END,
   cancellation =
@@ -78,13 +79,15 @@ SET pickup_time =
     WHEN cancellation IS NULL OR cancellation LIKE 'null' THEN ''  -- Replace "null" with empty string
     ELSE cancellation
   END
-WHERE pickup_time LIKE 'null' OR distance LIKE 'null' OR duration LIKE 'null' OR cancellation IS NULL OR cancellation LIKE 'null';
+WHERE pickup_time LIKE 'null' OR distance LIKE 'null' OR duration LIKE 'null' OR cancellation IS NULL OR cancellation LIKE 'null' 
+or duration like '%min%' or distance like '%Km%';
 ```
 ```SQL
 -- Verify the Cleaning Results: Check if any rows still have unclean data in the relevant columns
 SELECT *
-FROM pizza_runner.runner_orders
-WHERE pickup_time LIKE 'null' OR distance LIKE 'null' OR duration LIKE 'null' OR cancellation IS NULL OR cancellation LIKE 'null';
+FROM pizza_runner.runner_orders 
+WHERE pickup_time LIKE 'null' OR distance LIKE 'null' OR duration LIKE 'null' OR cancellation IS NULL OR cancellation LIKE 'null' 
+or duration like '%min%' or distance like '%Km%';
 ```
 ```SQL
 -- Alter Data Types (After Verification): Convert columns to appropriate data types
