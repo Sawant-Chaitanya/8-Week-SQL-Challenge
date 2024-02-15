@@ -66,21 +66,15 @@ SET pickup_time =
     WHEN distance LIKE '%km' THEN TRIM(TRAILING 'km' FROM distance)  -- Trim trailing "km"
     ELSE distance
   END,
-  duration =
- CASE 
- 	WHEN duration LIKE 'null' THEN ' '
-    WHEN duration LIKE '%mins' THEN REPLACE(duration, 'mins', '') 
-    WHEN duration LIKE '%minute' THEN REPLACE(duration, 'minute', '') 
-    WHEN duration LIKE '%minutes%' THEN REPLACE(duration, 'minutes', '') 
-    ELSE duration
-  END,
+
+  duration = REPLACE(TRANSLATE(duration, 'minutesnull', '           '), ' ', ''),
+
   cancellation =
   CASE
     WHEN cancellation IS NULL OR cancellation LIKE 'null' THEN ''  -- Replace "null" with empty string
     ELSE cancellation
-  END
-WHERE pickup_time LIKE 'null' OR distance LIKE 'null' OR duration LIKE 'null' OR cancellation IS NULL OR cancellation LIKE 'null' 
-or duration like '%min%' or distance like '%Km%';
+  END;
+
 ```
 ```SQL
 -- Verify the Cleaning Results: Check if any rows still have unclean data in the relevant columns
@@ -89,13 +83,7 @@ FROM pizza_runner.runner_orders
 WHERE pickup_time LIKE 'null' OR distance LIKE 'null' OR duration LIKE 'null' OR cancellation IS NULL OR cancellation LIKE 'null' 
 or duration like '%min%' or distance like '%Km%';
 ```
-```SQL
--- Alter Data Types (After Verification): Convert columns to appropriate data types
-ALTER TABLE pizza_runner.runner_orders
-ALTER COLUMN pickup_time DATETIME,
-ALTER COLUMN distance FLOAT,
-ALTER COLUMN duration INT;
-```
+
 
 ### Explanation:
 1. **Clean the Data**:
@@ -106,8 +94,6 @@ ALTER COLUMN duration INT;
 2. **Verify the Cleaning Results**:
    - After updating the data, this script checks if any rows still have unclean data in the relevant columns.
    - It selects all columns from the `runner_orders` table where any of the specified columns still contain 'null' values.
-3. **Alter Data Types (After Verification)**:
-   - This step is optional and assumes that the data has been successfully cleaned.
-   - It alters the data types of specific columns (`pickup_time`, `distance`, `duration`) to more appropriate types (`DATETIME`, `FLOAT`, `INT`) based on the cleaned data.
+
 
 ----
