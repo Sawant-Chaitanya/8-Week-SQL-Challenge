@@ -26,7 +26,7 @@ Danny has shared three key datasets:
 3. **Members:** Captures when customers joined the loyalty program.
 
 ## Entity Relationship Diagram
-![ER Diagram]
+![ER Diagram](https://github.com/Sawant-Chaitanya/Week-2/assets/89839734/2b1e9d60-2e40-415f-b70c-06c47c1e9579)
 
 ## Example Datasets
 
