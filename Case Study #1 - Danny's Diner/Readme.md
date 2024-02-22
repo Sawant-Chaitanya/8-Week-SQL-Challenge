@@ -75,7 +75,7 @@ Danny has shared three key datasets:
 
 ## Bonus Questions
 
-### **Join All The Things**
+### [**Join All The Things**](https://github.com/Sawant-Chaitanya/8-Week-SQL-Challenge/tree/main/Case%20Study%20%231%20-%20Danny's%20Diner/Bonus%20Questions/Join%20All%20The%20Things)
 Recreate the given table output using the available data.
 Certainly! Below are the tables converted into Markdown format for your README.md file:
 
@@ -100,7 +100,7 @@ Certainly! Below are the tables converted into Markdown format for your README.m
 | C           | 2021-01-07  | ramen        | 12    | N      |
 
 
-### Rank All The Things
+### [Rank All The Things](https://github.com/Sawant-Chaitanya/8-Week-SQL-Challenge/tree/main/Case%20Study%20%231%20-%20Danny's%20Diner/Bonus%20Questions/Rank%20All%20The%20Things)
 Generate rankings for customer products, with null rankings for non-member purchases.
 
 #### Sales Ranking
