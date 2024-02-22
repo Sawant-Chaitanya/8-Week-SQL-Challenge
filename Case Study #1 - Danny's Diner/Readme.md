@@ -1,12 +1,13 @@
 # [Danny's Diner SQL Case Study](https://8weeksqlchallenge.com/case-study-1/)
 
+![Screenshot of danny's diner 1 week casestudy.](https://8weeksqlchallenge.com/images/case-study-designs/1.png)
+
 ## Contents
 - [Introduction](#introduction)
 - [Problem Statement](#problem-statement)
 - [Datasets](#datasets)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Example Datasets](#example-datasets)
-- [Interactive SQL Session](#interactive-sql-session)
 - [Case Study Questions](#case-study-questions)
   - [Bonus Questions](#bonus-questions)
     - [Join All The Things](#join-all-the-things)
