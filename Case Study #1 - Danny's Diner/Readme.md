@@ -62,16 +62,16 @@ Danny has shared three key datasets:
 
 
 ## Case Study Questions
-1. [Total Amount Spent by Each Customer](#question-1)
-2. [Number of Visits by Each Customer](#question-2)
-3. [First Item Purchased by Each Customer](#question-3)
-4. [Most Purchased Item and Frequency](#question-4)
-5. [Most Popular Item for Each Customer](#question-5)
-6. [First Item Purchased After Becoming a Member](#question-6)
-7. [Last Item Purchased Before Becoming a Member](#question-7)
-8. [Total Items and Amount Spent Before Membership](#question-8)
-9. [Points Calculation](#question-9)
-10. [Points Calculation After Joining Program](#question-10)
+1. [Total Amount Spent by Each Customer](https://github.com/Sawant-Chaitanya/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/Solutions/Q1.md)
+2. [Number of Visits by Each Customer](https://github.com/Sawant-Chaitanya/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/Solutions/Q2.md)
+3. [First Item Purchased by Each Customer](https://github.com/Sawant-Chaitanya/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/Solutions/Q3.md)
+4. [Most Purchased Item and Frequency](https://github.com/Sawant-Chaitanya/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/Solutions/Q4.md)
+5. [Most Popular Item for Each Customer](https://github.com/Sawant-Chaitanya/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/Solutions/Q5.md)
+6. [First Item Purchased After Becoming a Member](https://github.com/Sawant-Chaitanya/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/Solutions/Q6.md)
+7. [Last Item Purchased Before Becoming a Member](https://github.com/Sawant-Chaitanya/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/Solutions/Q7.md)
+8. [Total Items and Amount Spent Before Membership](https://github.com/Sawant-Chaitanya/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/Solutions/Q8.md)
+9. [Points Calculation](https://github.com/Sawant-Chaitanya/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/Solutions/Q9.md)
+10. [Points Calculation After Joining Program](https://github.com/Sawant-Chaitanya/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Danny's%20Diner/Solutions/Q10.md)
 
 ## Bonus Questions
 
