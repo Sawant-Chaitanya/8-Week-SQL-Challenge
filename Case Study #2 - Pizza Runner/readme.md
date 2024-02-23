@@ -83,7 +83,7 @@ Contains topping IDs and names.
 
 
 ## Entity Relationship Diagram
-![ER Diagram](https://github.com/Sawant-Chaitanya/Week-2/assets/89839734/fb74176f-abe0-49dd-aa8b-e1f0feccf000)
+![ER Diagram](https://github.com/Sawant-Chaitanya/Week-2/assets/89839734/c1bc9034-f1ae-4330-92f9-c5031ed92e0c)
 
 ## Case Study Questions
 
