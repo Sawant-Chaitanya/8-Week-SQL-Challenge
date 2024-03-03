@@ -23,7 +23,10 @@
 
 
 ## Introduction
-Inspired by 80s retro styling and the universal love for pizza, Danny Ma launched Pizza Runner, a delivery service aiming to combine nostalgia with convenience. The concept involves delivering fresh pizza from Pizza Runner Headquarters using a fleet of "runners" and a mobile app for order management.
+Did you know that over 115 million kilograms of pizza is consumed daily worldwide???🍕🤤 (Well according to Wikipedia anyway…).
+  Inspired by 80s retro styling and the universal love for pizza, Danny Ma launched Pizza Runner, a delivery service aiming to combine nostalgia with convenience. The concept involves delivering fresh pizza from Pizza Runner Headquarters using a fleet of "runners" and a mobile app for order management.
+
+
 
 ## Available Data
 The Pizza Runner database schema includes the following tables:
