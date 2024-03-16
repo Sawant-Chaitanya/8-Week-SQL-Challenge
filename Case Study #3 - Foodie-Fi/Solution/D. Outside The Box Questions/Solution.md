@@ -134,3 +134,66 @@ By analyzing and optimizing these key customer journeys, Foodie-Fi can proactive
 
 
 ----
+
+
+# 4. Exit Survey Questions for Foodie-Fi
+
+Creating an exit survey for customers who wish to cancel their subscription is crucial for understanding their reasons for leaving and gathering valuable feedback to improve the service. Here are some questions to include in the exit survey:
+
+## 1. Reason for Cancelling
+- **What is the primary reason for cancelling your subscription with Foodie-Fi?**
+  - Lack of content variety
+  - Dissatisfaction with video quality
+  - Pricing or affordability concerns
+  - Technical issues or platform usability
+  - Found a better alternative
+  - Not using the service frequently
+  - Other (please specify)
+
+## 2. Overall Satisfaction
+- **How satisfied were you with your experience using Foodie-Fi?**
+  - Very satisfied
+  - Somewhat satisfied
+  - Neutral
+  - Somewhat dissatisfied
+  - Very dissatisfied
+
+## 3. Likelihood to Recommend
+- **How likely are you to recommend Foodie-Fi to a friend or colleague?**
+  - Very likely
+  - Somewhat likely
+  - Neutral
+  - Somewhat unlikely
+  - Very unlikely
+
+## 4. Feedback on Content
+- **What types of content would you like to see more of on Foodie-Fi?**
+  - Cooking tutorials and recipes
+  - Culinary travel shows
+  - Celebrity chef interviews
+  - Food documentaries
+  - Live cooking events or competitions
+  - Other (please specify)
+
+## 5. Pricing and Value Perception
+- **Do you feel the subscription price for Foodie-Fi is justified by the content and features offered?**
+  - Yes, it's a great value
+  - It's somewhat fair
+  - No, it's too expensive for what's provided
+
+## 6. User Experience and Interface
+- **How would you rate the user interface and overall experience of using Foodie-Fi?**
+  - Excellent
+  - Good
+  - Average
+  - Poor
+  - Very poor
+
+## 7. Improvement Suggestions
+- **Do you have any suggestions or feedback on how we can improve Foodie-Fi to better meet your needs?**
+
+## 8. Additional Comments
+- **Is there anything else you would like to share about your experience with Foodie-Fi?**
+
+Gathering insights from these exit survey questions will help Foodie-Fi identify areas for improvement, address customer concerns, and potentially win back customers in the future by making necessary enhancements to the service.
+
