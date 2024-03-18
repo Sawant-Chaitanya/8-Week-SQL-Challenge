@@ -72,7 +72,7 @@ This case study encompasses various questions aimed at understanding Foodie-Fi's
 
 ### A. Customer Journey
 Understand the onboarding journey of sample customers based on subscription data.
-
+---
 ### B. Data Analysis Questions
 1. How many customers has Foodie-Fi ever had?
 2. What is the monthly distribution of trial plan start_date values?
@@ -84,15 +84,41 @@ Understand the onboarding journey of sample customers based on subscription data
 8. How many customers upgraded to an annual plan in 2020?
 9. Average days for a customer to upgrade to an annual plan.
 10. Further breakdown of the average upgrade duration into 30-day periods.
+    
+----
 
 ### C. Challenge Payment Question
+
 Create a new payments table for the year 2020 based on subscription data with specified rules.
+
+The Foodie-Fi team requires the creation of a payments table for the year 2020, capturing amounts paid by each customer based on their subscriptions. The following criteria must be met:
+
+- **Monthly Payments**: Occur on the same day as the original start_date of monthly plans.
+- **Basic to Monthly/Pro Upgrades**: Reduced by the current paid amount in that month and start immediately.
+- **Pro Monthly to Pro Annual Upgrades**: Paid at the end of the current billing period and start at the end of the month period.
+- **Churn**: Customers who churn will no longer make payments.
+
+#### Example Outputs:
+
+| customer_id | plan_id | plan_name     | payment_date | amount | payment_order |
+|-------------|---------|---------------|--------------|--------|---------------|
+| 1           | 1       | basic monthly | 2020-08-08   | 9.90   | 1             |
+| 1           | 1       | basic monthly | 2020-09-08   | 9.90   | 2             |
+| 1           | 1       | basic monthly | 2020-10-08   | 9.90   | 3             |
+| ...         | ...     | ...           | ...          | ...    | ...           |
+
+
+
+---
+
 
 ### D. Outside The Box Questions
 Explore open-ended questions focused on business growth, customer retention, and churn reduction strategies.
 
+
+----
 ## Conclusion
 This case study presents realistic scenarios commonly encountered in digital product analytics across various industries. By applying SQL skills to analyze data and derive actionable insights, we can drive informed decision-making and contribute to the success of Foodie-Fi's subscription-based model.
 
 ---
-tags: #DataAnalysis #SQL #FoodieFi #BusinessAnalytics #SubscriptionModel #CustomerRetention #ChurnReduction #DataDrivenDecisions #SQLQueries #DatabaseManagement
+
