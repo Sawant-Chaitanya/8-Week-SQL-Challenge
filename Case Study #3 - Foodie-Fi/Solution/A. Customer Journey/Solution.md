@@ -1,5 +1,27 @@
 ## Based off the 8 sample customers provided in the sample from the subscriptions table, write a brief description about each customer’s onboarding journey. Try to keep it as short as possible - you may also want to run some sort of join to make your explanations a bit easier!
+
 ---
+
+```SQL
+SELECT 
+    sd.customer_id,
+    CONCAT('Started with ', 
+           CASE 
+               WHEN sd.plan_id = 0 THEN 'a trial plan' 
+               WHEN sd.plan_id = 1 THEN 'a basic monthly plan' 
+               WHEN sd.plan_id = 2 THEN 'a pro monthly plan' 
+               WHEN sd.plan_id = 3 THEN 'a pro annual plan' 
+               WHEN sd.plan_id = 4 THEN 'a churned plan' 
+               ELSE 'an unknown plan' 
+           END,
+           ' on ', sd.start_date) AS onboarding_journey
+FROM 
+    subscriptions_demo as sd
+ORDER BY 
+    sd.customer_id, sd.start_date;
+
+```
+
 ### Here's a brief description of each customer's onboarding journey based on the provided sample data:
 
 - **Customer 1:** Started with a trial plan on August 1, 2020, then upgraded to a basic monthly plan on August 8, 2020.
