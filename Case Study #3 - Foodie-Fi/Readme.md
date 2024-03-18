@@ -12,7 +12,7 @@
 - [Case Study Questions](#case-study-questions)
     - [A. Customer Journey](#a-customer-journey)
     - [B. Data Analysis Questions](#b-data-analysis-questions)
-    - [C. Challenge Payment Question](#c-challenge-payment-questions)
+    - [C. Challenge Payment Question](#c-challenge-payment-question)
     - [D. Outside The Box Questions](#d-outside-the-box-questions)
 - [Conclusion](#conclusion)
 
