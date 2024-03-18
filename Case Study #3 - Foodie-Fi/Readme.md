@@ -1,4 +1,4 @@
-# Case Study #3 - Foodie-Fi
+# [Case Study #3 - Foodie-Fi](https://8weeksqlchallenge.com/case-study-3/)
 
 ![image](https://8weeksqlchallenge.com/images/case-study-designs/3.png)
 
@@ -115,6 +115,12 @@ The Foodie-Fi team requires the creation of a payments table for the year 2020, 
 ### D. Outside The Box Questions
 Explore open-ended questions focused on business growth, customer retention, and churn reduction strategies.
 
+
+1. How would you calculate the rate of growth for Foodie-Fi?
+2. What key metrics would you recommend Foodie-Fi management to track over time to assess performance of their overall business?
+3. What are some key customer journeys or experiences that you would analyse further to improve customer retention?
+4. If the Foodie-Fi team were to create an exit survey shown to customers who wish to cancel their subscription, what questions would you include in the survey?
+5. What business levers could the Foodie-Fi team use to reduce the customer churn rate? How would you validate the effectiveness of your ideas?
 
 ----
 ## Conclusion
