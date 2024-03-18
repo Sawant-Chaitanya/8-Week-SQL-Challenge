@@ -72,6 +72,9 @@ This case study encompasses various questions aimed at understanding Foodie-Fi's
 
 ### A. Customer Journey
 Understand the onboarding journey of sample customers based on subscription data.
+
+Based off the 8 sample customers provided in the sample from the subscriptions table, write a brief description about each customer’s onboarding journey.
+
 ---
 ### B. Data Analysis Questions
 1. How many customers has Foodie-Fi ever had?
